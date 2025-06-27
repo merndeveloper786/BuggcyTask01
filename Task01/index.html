@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuikPik</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src=""></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <div class="hamburger" onclick="toggleMenu()">☰</div>
+          <div class="logo">
+            <span class="black">Quik<span class="green">Pik</span></span>
+          </div>
+        </div>
+
+        <ul id="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <button class="shop-now"><a href="#">ShopNow</a></button>
+          <div class="icons">
+            <img src="/img/sign-in.png" alt="Sign In" />
+            <img src="/img/carts.png" alt="Cart" />
+          </div>
+        </div>
+      </nav>
+      <div class="search-bar">
+        <div class="main-search">
+          <select class="category-dropdown">
+            <img src="/img/dots.png" alt="" />
+            <option value="all">
+              <img src="/img/dots.png" alt="" /> All Categories
+            </option>
+          </select>
+          <div class="search-right">
+            <input type="text" placeholder="What are you looking for?" />
+            <button class="search-button">
+              <img src="/img/Search-icon.png" alt="Search" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="Mian-section">
+        <div class="banner">
+          <div class="banner-left">
+            <p class="banner-text-small">30% Off on groceries</p>
+            <p class="banner-text">Shop smarter, not harder.</p>
+            <div class="animationcontainer">
+              <div class="animation">
+                <div class="first"><div>Get it Ordered.</div></div>
+                <div class="second"><div>Get it Shipped.</div></div>
+                <div class="third"><div>Get it Delivered.</div></div>
+              </div>
+            </div>
+            <p class="banner-text-sm">
+              Save time, skip the lines. We've got you covered.
+            </p>
+            <button class="shop-now1"><a href="#">Shop Now</a></button>
+          </div>
+          <div class="aside-image">
+            <img src="/img/girl.png" alt="" />
+            <div class="right-rev">
+              <img src="/img/Ellipse 8Girl2.png" alt="" />
+              <div class="right-cont">
+                <p>Ashley Danials</p>
+                <p>
+                  "Saved me tons of time - never going back to grocery
+                  shopping!"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Trending-Products">
+          <span class="Product">Trending Products</span>
+          <div class="item-details">
+            <div>
+              <img src="/img/grossary.png" alt="" class="im1" />
+              <p>Grocery</p>
+            </div>
+            <div>
+              <img src="/img/shoes.png" alt="" class="im1" />
+              <p>Shoes</p>
+            </div>
+            <div>
+              <img src="/img/phones.png" alt="" class="im1" />
+              <p>Phones</p>
+            </div>
+            <div>
+              <img src="/img/speaker.png" alt="" class="im1" />
+              <p>Google Home</p>
+            </div>
+            <div>
+              <img src="/img/clock.png" alt="" class="im1" />
+              <p>Alarm Clocks</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="deal-text">Deal of the Week</div>
+          <div class="countdown">
+            <div class="box">
+              <span class="stext">10 <span class="stext1">Days</span></span>
+            </div>
+            <div class="box">
+              <span class="stext">19 <span class="stext1">Hours</span></span>
+            </div>
+            <div class="box">
+              <span class="stext">59 <span class="stext1">Minutes</span></span>
+            </div>
+            <div class="box">
+              <span class="stext">57 <span class="stext1">Seconds</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="container1">
+          <div class="Wholediv">
+            <div class="prod">
+              <img src="/img/perfume1.png" alt="" class="image-left" />
+              <div class="textofperfume">
+                <h2>Elegant Perfumes</h2>
+                <p>$16.00</p>
+                <ul class="features">
+                  <li><span class="green11">✓</span> Long Lasting</li>
+                  <li><span class="green11">✓</span> Affordable price</li>
+                  <li><span class="green11">✓</span> Best Perfume</li>
+                </ul>
+                <button class="buy-now">
+                  <img
+                    src="/img/BUY-now.png"
+                    alt=""
+                    style="margin-right: 20px"
+                  />Buy Now
+                </button>
+              </div>
+            </div>
+            <div class="prod">
+              <img src="/img/soap.png" alt="" class="image-right" />
+              <div class="textofperfume">
+                <h2>Strawberry Shampoo</h2>
+                <p>$18.88</p>
+                <ul class="features">
+                  <li><span class="green11">✓</span> Allergy free</li>
+                  <li><span class="green11">✓</span> Best Product</li>
+                  <li><span class="green11">✓</span> Affordable price</li>
+                </ul>
+                <button class="buy-now">
+                  <img
+                    src="/img/BUY-now.png"
+                    alt=""
+                    style="margin-right: 20px"
+                  />Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="span1">Medical Product</span>
+        <div class="Maskandcissor">
+          <div class="setimage">
+            <div class="left-sec">
+              <img src="/img/mask.png" alt="" class="image-left1" />
+              <div class="cont">
+                <span class="abc">From $0.99</span>
+                <p>Breathable<br />Face Mask</p>
+                <button class="shop-now-button">
+                  Shop now <span class="arrow">></span>
+                </button>
+              </div>
+            </div>
+            <div class="right-sec">
+              <img src="/img/Scisssor.png" alt="" class="image-right1" />
+              <div class="cont">
+                <span class="abc">From $0.99</span>
+                <p>Medicine pack<br />Get it now 45% Off</p>
+                <button class="shop-now-button">
+                  Shop now <span class="arrow">></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fouthlast">
+          <div class="giftdivleft">
+            <img src="img/gift2.gif" alt="gift2" />
+          </div>
+          <div class="textdivright">
+            <span class="blacktext"
+              >Big city savings,<br />delivered to <br />
+              your <span class="redtext">doorstep.</span></span
+            >
+          </div>
+        </div>
+        <span class="fourthlasttext">Our Actions speaks louder than WORDS</span>
+        <div class="thirdlast">
+          <div class="header">
+            <h2>
+              Unlock the secrets of satisfied <br />
+              customers.
+            </h2>
+            <div class="nav-buttons">
+              <div class="button left-button">
+                <img src="/img/arrow-left.png" alt="" />
+              </div>
+              <div class="button right-button">
+                <img src="/img/arrow-right.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-container">
+            <div class="testimonial">
+              <p>
+                "Never going back to waiting in lines! Shop smarter, get it
+                delivered with QuickPik. It's that simple."
+              </p>
+              <div class="author">
+                <img src="/img/albus_stella.png" alt="Albus Stella" />
+                <div class="author-info">
+                  <p>Albus Stella</p>
+                  <p style="margin-top: -13px">Manager @ Howarts</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p>
+                "Wide selection, even in my small town! Found everything I
+                needed for my birthday party with just a few clicks. Thanks,
+                QuickPik!"
+              </p>
+              <div class="author">
+                <img src="/img/Severus.png" alt="Albus Stella" />
+                <div class="author-info">
+                  <p>Severus Snap</p>
+                  <p style="margin-top: -13px">Manager @ Slytherin</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p>
+                "Lifesaver for busy families! Fresh groceries delivered in a
+                flash - dinner's on the table, thanks QuickPik!"
+              </p>
+              <div class="author">
+                <img src="/img/Harry.png" alt="Albus Stella" />
+                <div class="author-info">
+                  <p>Harry brige</p>
+                  <p style="margin-top: -13px">Team Leader @ Gryffindor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last">
+          <div class="left">
+            <img src="/img/Men.png" alt="Person using a mobile phone" />
+          </div>
+          <div class="right">
+            <h2>SignUp For Exclusive Offers<br />And Discounts</h2>
+            <button class="shop-now"><a href="#">Shop Now</a></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-column logo-section">
+          <h2>
+            <span class="logo-bold">Quick</span
+            ><span class="logo-green">Pik</span>
+          </h2>
+          <p>Shop smarter, not harder.<br />Get it delivered.</p>
+          <div class="social-icons">
+            <img src="/img/insta.png" alt="" />
+            <img src="/img/twitter.png" alt="" />
+            <img src="/img/facebook.png" alt="" />
+            <img src="/img/youtube.png alt="" />
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">AboutUs</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Locations</h3>
+          <ul>
+            <li>Mumbai</li>
+            <li>Pune</li>
+            <li>Nagpur</li>
+            <li>Bangalore</li>
+            <li>Goa</li>
+          </ul>
+        </div>
+        <div class="footer-column image-col">
+          <img src="/img/gift1.gif" alt="Mobile illustration" />
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p><strong>@All Rights Reserved QuickPik</strong></p>
+      </div>
+    </footer>
+    -->
+
+    <script>
+      function toggleMenu() {
+        const navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
